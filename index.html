@@ -5,32 +5,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dev Pratap Singh</title>
   <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
       text-align: center;
       padding: 50px;
     }
-    a {
-      text-decoration: none;
-      color: #333;
-      padding: 10px;
-      margin: 10px;
-      border: 1px solid #333;
-      border-radius: 5px;
+    h1 {
+      font-size: 3em;
+      color: #4CAF50;
+      margin-bottom: 20px;
     }
-    a:hover {
-      background-color: #f0f0f0;
+    h2 {
+      font-size: 1.5em;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .intro {
+      font-size: 1.1em;
+      margin-bottom: 40px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #666;
+      text-align: justify;
+    }
+    .links a {
+      font-size: 1.1em;
+      text-decoration: none;
+      color: white;
+      background-color: #333;
+      padding: 15px 30px;
+      margin: 10px;
+      border-radius: 50px;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+    .links a:hover {
+      background-color: #4CAF50;
+      transform: scale(1.1);
+    }
+    .container {
+      padding: 50px 0;
+    }
+    footer {
+      font-size: 0.9em;
+      color: #888;
+      margin-top: 50px;
+    }
+    .social-links {
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
-  <h1>Dev Pratap Singh</h1>
-  <p>Welcome to my personal website!</p>
-  <div>
+  <header>
+    <h1>Dev Pratap Singh</h1>
+    <h2>Data Science Enthusiast | Software Engineer | Problem Solver</h2>
+  </header>
+
+  <section class="intro">
+    <p>Hello! I'm Dev, a passionate Software Engineer and AI enthusiast. I have a strong background in building AI-driven solutions, including working on projects that integrate Large Language Models (LLMs) with data retrieval systems. My experience spans from reducing data retrieval times to building end-to-end pipelines in machine learning, alongside contributing to algorithmic trading and public transit optimization. I love solving complex problems with innovative tech and am always keen to learn and explore new tools in the field.</p>
+  </section>
+
+  <section class="container">
+    <div class="social-links">
+      <p>Connect with me:</p>
+      <div class="links">
     <a href="https://github.com/Devps2003" target="_blank">GitHub</a>
     <a href="https://www.linkedin.com/in/dev-pratap-singh-6017b8223/" target="_blank">LinkedIn</a>
     <a href="https://leetcode.com/u/Devpratap05/" target="_blank">LeetCode</a>
     <a href="https://x.com/DevPrat30073846" target="_blank">Twitter</a>
-  </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Dev Pratap Singh | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
